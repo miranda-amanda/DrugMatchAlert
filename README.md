@@ -5,13 +5,6 @@ This web application assesses the potential risks of combining two types of medi
 
 This project was created as the final project for Harvard's online Introduction to Computer Science course.
 
-Technologies Used:
-
-Flask: Python web framework for backend logic.
-JavaScript: Handles user interactions and dynamic updates.
-SQLite: Stores drug interaction data.
-Bootstrap & CSS: Enhance the visual design and user interface.
-
 The application features modal pop-ups for clear, concise alert messages, improving user experience. It is built for simplicity and rapid development using Flask and SQLite, with a focus on usability and accessibility.
 
 This project incorporated course activities and lessons, with additional assistance from ChatGPT to refine code and achieve the desired results.
