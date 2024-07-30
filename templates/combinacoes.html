@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinações</title>
+</head>
+<body>
+    <h1>Combinações no Banco de Dados</h1>
+    <table border="1">
+        <tr>
+            <th>Medicamento 1</th>
+            <th>Medicamento 2</th>
+        </tr>
+        {% for combinacao in combinacoes %}
+        <tr>
+            <td>{{ combinacao['drug1'] }}</td>
+            <td>{{ combinacao['drug2'] }}</td>
+            <td>{{ combinacao['alert'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
